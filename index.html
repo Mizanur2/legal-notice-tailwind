@@ -22,9 +22,9 @@
     </style>
 </head>
 
-<body class="mx-5 lg:mx-20">
+<body>
 
-    <header>
+    <header class="mx-5 lg:mx-20">
 
         <nav class="flex justify-between items-center py-10 ">
             <div>
@@ -62,7 +62,7 @@
 
         </section>
     </header>
-    <main>
+    <main class="mx-5 lg:mx-20">
         <!-- practice area  -->
         <div class="text-center space-y-5 my-10">
             <h1 class="text-4xl font-extrabold capitalize">the legal practice area</h1>
@@ -303,8 +303,101 @@
             </div>
         </div>
 
+        <!-- message section  -->
+
+        <div class="text-center space-y-5 my-10">
+            <h1 class="text-4xl font-extrabold capitalize">contact with us</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
+                alteration in some form, by injected humour.</p>
+
+        </div>
+
+        <!-- contact section  -->
+
+        <div class="flex flex-col md:flex-row my-20 lg:flex-row gap-10">
+            <div class="flex-1">
+                <div class="grid grid-cols-2 gap-1">
+                    <div class="bg-[#f3f3f3] p-10">
+                        <img class="mx-auto my-5" src="images/location.png" alt="">
+                        <div class="flex flex-col justify-center items-center">
+                            <h1 class="text-2xl font-extrabold">Address</h1>
+                            <p>A108 Adam Street, <br>
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#f3f3f3] p-10">
+                        <img class="mx-auto my-5" src="images/call.png" alt="">
+                        <div class="flex flex-col justify-center items-center">
+                            <h1 class="text-2xl font-extrabold">Call Us</h1>
+                            <p>A108 Adam Street, <br>
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#f3f3f3] p-10">
+                        <img class="mx-auto my-5" src="images/email.png" alt="">
+                        <div class="flex flex-col justify-center items-center">
+                            <h1 class="text-2xl font-extrabold">Email Us</h1>
+                            <p>A108 Adam Street, <br>
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#f3f3f3] p-10">
+                        <img class="mx-auto my-5" src="images/time.png" alt="">
+                        <div class="flex flex-col justify-center items-center">
+                            <h1 class="text-2xl font-extrabold">Working Hour</h1>
+                            <p>A108 Adam Street, <br>
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 space-y-4">
+                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Name">
+                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Email">
+                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Password">
+                <textarea class="block bg-[#f3f3f3] rounded-lg w-full" name="" id="" cols="30" rows="9"></textarea>
+                <input class="block bg-[#B68C5A] text-white p-3 rounded-lg w-full" type="submit" value="Send Message"
+                    placeholder="Your Password">
+            </div>
+        </div>
+
     </main>
 
+
+    <footer class="footer py-28 bg-[#111] text-white text-base-content px-5 lg:px-20">
+        <nav>
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Legal</header>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+            <header class="footer-title">Newsletter</header>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                    <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 
 </body>
 
